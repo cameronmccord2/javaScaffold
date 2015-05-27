@@ -1,0 +1,12 @@
+Models
+	IValidates - Boolean isValid(), checks type enums,
+	IMockData - List<T> validMockData(), List<T> invalidMockData()
+	IParseable - T parseResultSet(ResultSet resultSet)
+	Set up enums for types
+DAOs
+	I<T>Dao
+	Mock<T>Dao(to test the controllers)
+	<T>Dao
+	Add a way to run through and validate the database data
+Controllers
+	Controller tests that use mock daos
